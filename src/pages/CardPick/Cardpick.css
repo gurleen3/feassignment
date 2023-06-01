@@ -1,0 +1,36 @@
+
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cardImg:hover{
+    cursor: pointer;
+}
+
+.front{
+    backface-visibility: hidden;
+  }
+  
+  .back{
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+  }
+  
+  .cardFlip{
+    transform: rotateY(180deg);
+  }
+
+  
+.card{
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+  }
+
+  .other{
+    border: 5px rgb(0,0,0,0.2);
+  }

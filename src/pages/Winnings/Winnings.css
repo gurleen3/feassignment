@@ -1,0 +1,26 @@
+.couponDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.coupon{
+ 
+    height: 345px;
+    width: 345px;
+    /* background: red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0,0,0,0.3);
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.coupon:hover{
+    box-shadow: 3px 20px 20px 1px rgb(0,0,0,0.2);
+}

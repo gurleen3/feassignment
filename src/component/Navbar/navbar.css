@@ -1,0 +1,28 @@
+.NavBar{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.Userprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    /* width: 40%; */
+}
+
+.navbarusername{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.Gamezone:hover{
+    cursor: pointer;
+}
+
+.Avat:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.LoginDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #e0e0ff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.loginheading{
+    color: #a5a5ff;
+}
+
+.signuptext{
+    color: #a5a5ff;
+    margin-left: 10px !important;
+}
+
+.signuptext:hover{
+    cursor: pointer;
+}

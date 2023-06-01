@@ -1,0 +1,7 @@
+.CardElevator{
+    width:352px;
+}
+
+.CardElevator:hover{
+    box-shadow:3px 20px 20px 1px rgb(0,0,0,0.2) !important;
+}

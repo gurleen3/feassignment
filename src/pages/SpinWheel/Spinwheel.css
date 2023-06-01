@@ -1,0 +1,15 @@
+.ModalDiv{
+    width: 50%;
+    height: 50%;
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 10px;
+    color: rgb(34, 139, 34);
+    outline: none;
+}
